@@ -4,5 +4,8 @@
   "postAttachCommand": ["rustlings", "watch"],
   "remoteEnv": {
     "PATH": "${containerEnv:PATH}:${containerWorkspaceFolder}/target/debug"
+  },
+  "features": {
+    "sshd": "latest"
   }
 }
